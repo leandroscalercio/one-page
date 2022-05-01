@@ -1,0 +1,158 @@
+body,
+a,
+p,
+h1,
+div,
+section,
+footer {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.introducao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px;
+  background: #d7d4ff;
+}
+
+.texto-introducao {
+  width: 300px;
+}
+
+.texto-introducao h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.btn-introducao,
+.btn-contato {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 50px;
+  background: #6c63ff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.btn-introducao a {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+}
+
+.card h1 {
+  font-size: 1.3em;
+  padding: 10px;
+}
+.card p {
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+.top-card-1 {
+  background: #ff6363;
+  width: 200px;
+  height: 200px;
+}
+
+.top-card-2 {
+  background: #63ecff;
+  width: 200px;
+  height: 200px;
+}
+.top-card-3 {
+  background: #f363ff;
+  width: 200px;
+  height: 200px;
+}
+.top-card-4 {
+  background: #63ff73;
+  width: 200px;
+  height: 200px;
+}
+.top-card-5 {
+  background: #ffdd63;
+  width: 200px;
+  height: 200px;
+}
+.top-card-6 {
+  background: #6663ff;
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #d7d5ff;
+  padding: 60px;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+
+.contato h1 {
+  margin-bottom: 30px;
+}
+.contato input {
+  border-radius: 5px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  width: 100%;
+  margin: 5px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.contato input::placeholder {
+  padding: 10px;
+}
+
+#text-area {
+  height: 150px;
+}
+
+.btn-contato {
+  width: 100%;
+}
+
+.btn-contato a {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
